@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "test": "jasmine-node src/test/ --color --noStack"
+  },
+  "jspm": {
+    "directories": {},
+    "dependencies": {
+      "jasmine-node": "npm:jasmine-node@^2.0.0",
+      "request": "npm:request@^2.58.0"
+    },
+    "devDependencies": {
+      "traceur": "github:jmcriffey/bower-traceur@0.0.88",
+      "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.88"
+    }
+  },
+  "devDependencies": {
+    "request": "^2.58.0"
+  }
+}
